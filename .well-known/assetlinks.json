@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.fnguide.retamin",
+      "sha256_cert_fingerprints": [
+        "C5:36:D7:B1:2F:23:07:F3:CB:9C:33:DB:B2:9E:FB:BD:5C:18:8B:8F:9F:BD:7B:6E:77:80:E3:82:B9:25:99:D3"
+      ]
+    }
+  }
+]
