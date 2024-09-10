@@ -3,9 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello World</title>
+    <title>Your Website Title</title>
+    <script type="text/javascript">
+      window.onload = function () {
+        var visitTime = new Date().getTime();
+
+        var isAndroid = /android/i.test(navigator.userAgent);
+        var isIOS =
+          /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+        if (isAndroid) {
+          location.href =
+            "https://play.google.com/store/apps/details?id=DAR3V86893.com.fnguide.retamin";
+        } else if (isIOS) {
+          location.href =
+            "https://apps.apple.com/app/idDAR3V86893.com.fnguide.retamin";
+        }
+      };
+    </script>
   </head>
   <body>
-    Hello, World!
+    <h1>AppLink Test</h1>
+    <p>
+      This is an example of a website that redirects users to the app's page on
+      the App Store or Play Store, depending on their device.
+    </p>
   </body>
 </html>
